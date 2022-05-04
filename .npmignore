@@ -1,0 +1,23 @@
+# Editor
+.idea
+.vscode
+
+# Node.js
+node_modules
+yarn-error.log
+
+# Configs
+configs
+tsconfig.json
+
+# Build
+*.tgz
+
+# Tests
+jest.config.js
+coverage
+**/*.spec.ts
+
+# ESLint
+.eslintrc.js
+.eslintcache

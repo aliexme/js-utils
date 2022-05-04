@@ -1,0 +1,35 @@
+{
+  "name": "@aliexme/js-common-utils",
+  "version": "0.0.1",
+  "description": "Common JavaScript utilities",
+  "homepage": "https://github.com/aliexme/js-common-utils",
+  "repository": "git@github.com:aliexme/js-common-utils.git",
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "ts:check": "tsc --noEmit",
+    "ts:compile": "tsc -p ./configs/tsconfig.lib.json",
+    "lint:check": "eslint --ext .js,.ts --ignore-path .gitignore --cache ./",
+    "lint:fix": "yarn lint:check --fix",
+    "test": "jest",
+    "test:coverage": "jest --collectCoverage",
+    "prepare": "yarn ts:compile"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.0.3",
+    "ts-jest": "^28.0.1",
+    "typescript": "^4.6.4"
+  }
+}

@@ -1,0 +1,16 @@
+# Editor
+.idea
+
+# Node.js
+node_modules
+yarn-error.log
+
+# Build
+lib
+*.tgz
+
+# Tests
+coverage
+
+# ESLint
+.eslintcache

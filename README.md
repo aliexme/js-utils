@@ -1,2 +1,1 @@
-# js-common-utils
-Common JavaScript utilities
+# @aliexme/js-common-utils
