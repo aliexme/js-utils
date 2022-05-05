@@ -11,7 +11,11 @@ yarn-error.log
 configs
 tsconfig.json
 
+# Sources
+src
+
 # Build
+lib
 *.tgz
 
 # Tests
