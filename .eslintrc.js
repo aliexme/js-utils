@@ -27,14 +27,19 @@ module.exports = {
   },
   "rules": {
     "quotes": ["error", "single"],
+    "quote-props": ["error", "as-needed"],
     "semi": ["error", "never"],
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "max-len": ["error", 120],
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
     "comma-dangle": ["error", "always-multiline"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "key-spacing": "error",
+    "keyword-spacing": ["error", { "before": true, "after": true }],
     "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "never"],
+    "computed-property-spacing": ["error", "never", { "enforceForClassMembers": true }],
     "space-in-parens": ["error", "never"],
-    "quote-props": ["error", "as-needed"],
     "space-before-function-paren": ["error", {
       "anonymous": "never",
       "named": "never",
@@ -47,8 +52,6 @@ module.exports = {
     "no-console": "error",
     "arrow-parens": "error",
     "no-useless-rename": "error",
-    "key-spacing": "error",
-    "no-prototype-builtins": "off",
     "import/no-useless-path-segments": ["error", { "noUselessIndex": false }],
     "import/order": ["error", {
       "groups": [["builtin", "external"], "internal", ["parent", "sibling"], "index", "object"],
@@ -81,6 +84,7 @@ module.exports = {
         "@typescript-eslint/no-empty-interface": ["error", {
           "allowSingleExtends": true,
         }],
+        "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports" }],
         "@typescript-eslint/type-annotation-spacing": "error",
       },
     },
