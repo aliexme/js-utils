@@ -86,6 +86,7 @@ module.exports = {
         }],
         "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports" }],
         "@typescript-eslint/type-annotation-spacing": "error",
+        "@typescript-eslint/no-explicit-any": "off",
       },
     },
   ],
