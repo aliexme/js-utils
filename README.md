@@ -5,5 +5,5 @@ Common JavaScript utilities
 ## Installation
 
 ```
-npm install @aliexme/js-utils
+npm i @aliexme/js-utils
 ```
