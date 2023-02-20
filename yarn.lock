@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@aliexme/eslint-config/-/eslint-config-0.1.1.tgz#1b1f6e78a6251d894926166e13f68ad67f965802"
   integrity sha512-bUiOwXQWK8y44nosYPi5Dz/sIBomw+EttmneFaJ1Z16S2g5bYVbZZJvwbGJUq1+/qogv/Ss9FUHU1Ds9QqAAqg==
 
-"@aliexme/ts-types@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@aliexme/ts-types/-/ts-types-0.2.1.tgz#71c03cd623098a2a2ccf5cb9e765da9dc87c2519"
-  integrity sha512-Bmo0k/8T81kcvTOeRahflUhjYQ0RWu8NzKbRrqjGhp0mtySKvGYZ3JoEFAaUNAjqi/jnL8au+Y8zQYRWSiUKBA==
+"@aliexme/ts-types@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@aliexme/ts-types/-/ts-types-0.2.2.tgz#444a1c7ec079e2c4a63dff33cd9fd88af18272fa"
+  integrity sha512-PWsj+5Lj6BAOxFXoRQ8HNsZZc9Su4C7rCuiIhGMcLPT11M+qVSusGvNgQuqzxgI9lBtDdtLKQd555EOChdd1uQ==
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
