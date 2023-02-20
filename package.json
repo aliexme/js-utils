@@ -1,25 +1,28 @@
 {
-  "name": "@aliexme/js-common-utils",
+  "name": "@aliexme/js-utils",
   "version": "0.2.0",
   "description": "Common JavaScript utilities",
-  "homepage": "https://github.com/aliexme/js-common-utils",
-  "repository": "git@github.com:aliexme/js-common-utils.git",
-  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
-  "license": "MIT",
   "private": false,
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "homepage": "https://github.com/aliexme/js-utils",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliexme/js-utils"
+  },
+  "license": "MIT",
   "main": "index.js",
   "typings": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "prepare": "yarn ts:compile",
     "ts:check": "tsc --noEmit",
     "ts:compile": "tsc -p ./tsconfig.lib.json",
     "lint:check": "eslint --ext .js,.ts --ignore-path .gitignore --cache ./",
     "lint:fix": "yarn lint:check --fix",
     "test": "jest",
-    "test:coverage": "jest --collectCoverage",
-    "prepare": "yarn ts:compile"
-  },
-  "publishConfig": {
-    "access": "public"
+    "test:coverage": "jest --collectCoverage"
   },
   "dependencies": {},
   "devDependencies": {
