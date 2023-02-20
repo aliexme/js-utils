@@ -1,6 +1,6 @@
 import { objectForEach } from './objectForEach'
 
-export const omitUndefinedObjectValues = <T extends Record<string, any>>(obj: T): T => {
+export const omitUndefinedObjectValues = <T extends Record<string, unknown>>(obj: T): T => {
   const result = {} as T
 
   objectForEach(obj, ({ key, value }) => {
