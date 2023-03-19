@@ -1,8 +1,6 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
     "declaration": true,
     "sourceMap": true,
     "outDir": "./"
