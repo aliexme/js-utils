@@ -2,7 +2,7 @@ import type { ValueOf } from '@aliexme/ts-types'
 
 import { objectForEach } from './objectForEach'
 
-export const omitObjectKeys = <T extends Record<string, unknown>, K extends keyof T>(
+export const omitObjectProperties = <T extends Record<string, unknown>, K extends keyof T>(
   obj: T,
   keys: K | K[],
 ): Omit<T, K> => {

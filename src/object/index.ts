@@ -1,3 +1,3 @@
 export * from './objectForEach'
-export * from './omitObjectKeys'
+export * from './omitObjectProperties'
 export * from './omitUndefinedObjectValues'
