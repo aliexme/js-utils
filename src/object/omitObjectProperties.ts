@@ -9,9 +9,7 @@ export const omitObjectProperties = <T extends Record<string, unknown>, K extend
   const result = {} as Omit<T, K>
 
   objectForEach(obj, ({ key, value }) => {
-    const needOmit = Array.isArray(keys)
-      ? keys.some((omitKey) => String(omitKey) === key)
-      : String(keys) === key
+    const needOmit = Array.isArray(keys) ? keys.some((omitKey) => String(omitKey) === key) : String(keys) === key
 
     if (!needOmit) {
       result[key as Exclude<keyof T, K>] = value as ValueOf<Omit<T, K>>

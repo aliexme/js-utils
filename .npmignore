@@ -28,6 +28,9 @@ coverage
 .eslintrc.js
 .eslintcache
 
+# Prettier
+.prettierrc.js
+
 # Husky
 .husky
 

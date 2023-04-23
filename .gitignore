@@ -19,3 +19,6 @@ coverage
 # ESLint
 !.eslintrc.js
 .eslintcache
+
+# Prettier
+!.prettierrc.js
