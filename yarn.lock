@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@aliexme/eslint-config@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@aliexme/eslint-config/-/eslint-config-0.3.0.tgz#29ddbd4e4f8e9dda5d1d4b25b82132572893f549"
-  integrity sha512-U9h9I94tMF3YtSuGWSGept/rbGDsAx9SLIKorppNurpFdwVTVUgHc0pIhqoKCTyhte1LaLx/NsE43zuk44L2mA==
+"@aliexme/eslint-config@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@aliexme/eslint-config/-/eslint-config-0.3.1.tgz#992493820f35e62ec1a0b70f9de981ca2eff10fa"
+  integrity sha512-7msbGd5L5fgzz9HtvfyrWIoxmRU8qN6bs7Un9zhT0BPXS9J7iEKS6JGxXQH8qQP1RwjIXc1COdUpWpTLfrlx8w==
 
-"@aliexme/ts-types@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@aliexme/ts-types/-/ts-types-0.2.2.tgz#444a1c7ec079e2c4a63dff33cd9fd88af18272fa"
-  integrity sha512-PWsj+5Lj6BAOxFXoRQ8HNsZZc9Su4C7rCuiIhGMcLPT11M+qVSusGvNgQuqzxgI9lBtDdtLKQd555EOChdd1uQ==
+"@aliexme/ts-types@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@aliexme/ts-types/-/ts-types-0.2.3.tgz#e66966510193d6cf9681d3a46c4faf93eda2a4d2"
+  integrity sha512-5T/SndxmlPkezjOVfv+T34rS8+u8w3m8I0WNH3l51+EjOWupn/x7Fsjxgowm3E1PxELABzRhBUszyONnChahng==
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
